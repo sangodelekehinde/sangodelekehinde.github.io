@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "../../../Downloads/clothings"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "men fashion html, css, javascript"
+  }
+}

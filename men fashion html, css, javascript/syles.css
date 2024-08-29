@@ -1,0 +1,540 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=New+Amsterdam&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.topcontent {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 1100px;
+
+  position: relative;
+}
+
+.mobile {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  gap: 40px;
+  align-items: center;
+
+  width: 100%;
+
+  position: absolute;
+}
+
+.mobilenavbar {
+  display: flex;
+  gap: 8px;
+}
+
+.head h2 {
+  font-weight: 500;
+  font-size: 20px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.searchItem {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+.searchItem input {
+  background-color: rgba(5, 68, 68, 0.064);
+  width: 35vw;
+  padding: 10px 12px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  color: black;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: <weight>; */
+  font-style: normal;
+}
+
+.explore {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 45px;
+}
+
+.collectioncontainer {
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(198, 198, 198, 0.107);
+}
+
+.collection {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.content1 {
+  height: 37vh;
+  width: 17vw;
+  border-radius: 500px;
+  background-color: rgba(255, 255, 255, 0.861);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url("img/anomaly-WWesmHEgXDs-unsplash.jpg");
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.content2 {
+  height: 37vh;
+  width: 17vw;
+  border-radius: 500px;
+  background-color: rgba(255, 255, 255, 0.861);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url("img/keenan-beasley-wc_2L541rcU-unsplash.jpg");
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.content3 {
+  height: 37vh;
+  width: 17vw;
+  border-radius: 500px;
+  background-color: rgba(255, 255, 255, 0.861);
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-image: url("img/colin-lloyd-wjq8Zbh53Nw-unsplash.jpg");
+  background-position: top;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.content1 p {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+}
+.content2 p {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 10px;
+  color: white;
+}
+.content3 p {
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+  padding-top: 10px;
+  color: rgb(56, 2, 2);
+}
+.navbar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+li {
+  list-style: none;
+  font-size: 20px;
+  /* border: 0.4px solid grey; */
+  padding: 2px 12px;
+  /* border-radius: 12px; */
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.login {
+  background-color: rgba(95, 93, 93, 0.996);
+
+  padding: 8px;
+  border-radius: 20px;
+}
+.login button {
+  font-size: 12px;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  word-spacing: 2px;
+  background-color: rgba(95, 93, 93, 0.996);
+  border: none;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+
+  /* gap: 150px; */
+}
+
+.headimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 100vh;
+
+  padding-top: 12px;
+  /* border-radius: 10px; */
+  /* position: relative; */
+  padding-bottom: 65px;
+  background-image: url("img/anomaly-WWesmHEgXDs-unsplash.jpg");
+  background-position: center;
+}
+
+.headimg img {
+  object-fit: cover;
+  width: 80%;
+  height: 60vh;
+}
+
+.txt1 h2 {
+  padding-bottom: 50px;
+
+  font-size: 17px;
+  font-weight: 600;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.spec {
+  padding: 50px 60px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 5px;
+  padding-bottom: 20px;
+}
+.spec h3 {
+  font-weight: 500;
+  font-size: 22px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-bottom: 30px;
+}
+
+.one {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(198, 198, 198, 0.107);
+}
+
+.one h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.products {
+  width: 100%;
+  height: 50vh;
+  background-color: rgba(198, 198, 198, 0.107);
+  /* overflow: scroll; */
+  overflow-y: scroll;
+}
+.products::-webkit-scrollbar {
+  display: none;
+}
+.clothings {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 12px;
+}
+
+.section1 {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.section2 {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+.cloth1 {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+  width: 20vw;
+  height: 47vh;
+  border-radius: 12px;
+  background-image: url("img/cloth1green.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.cloth2 {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 20vw;
+  height: 47vh;
+  border-radius: 12px;
+  background-image: url("/img/cloth1brown.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.cloth3 {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 20vw;
+  height: 47vh;
+  border-radius: 12px;
+  background-image: url("/img/cloth1cream.png");
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.cloth4 {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 20vw;
+  height: 47vh;
+  border-radius: 12px;
+  background-image: url("/img/cloth1blue.png");
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: white;
+}
+
+.cloth5 {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 20vw;
+  height: 47vh;
+  border-radius: 12px;
+}
+.cloth6 {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  width: 20vw;
+  height: 47vh;
+  border-radius: 12px;
+}
+.spec p {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+}
+.container3 {
+  padding-top: 12px;
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+
+  /* background-color: black; */
+}
+
+.container3 h2 {
+  font-weight: 500;
+  font-size: 22px;
+  color: black;
+  padding-bottom: 5px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container3 p {
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  line-height: 22px;
+}
+
+.nav {
+  padding-top: 4px;
+}
+
+.favsearch {
+  display: flex;
+  gap: 10px;
+}
+
+.glass {
+  font-size: 20px;
+}
+.fav {
+  font-size: 20px;
+}
+@media (max-width: 500px) {
+  .head {
+    display: none;
+  }
+  .navbar {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  li {
+    font-size: 0.7rem;
+  }
+
+  .login p {
+    font-size: 0.3rem;
+  }
+  .container2 {
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+
+  .collection {
+    flex-direction: column;
+  }
+  .collectioncontainer {
+    height: 130vh;
+  }
+  .content1 {
+    height: 32vh;
+    width: 64vw;
+  }
+  .content1 p {
+    visibility: hidden;
+  }
+  .content2 p {
+    visibility: hidden;
+  }
+  .content3 p {
+    visibility: hidden;
+  }
+  .content2 {
+    height: 32vh;
+    width: 64vw;
+  }
+  .content3 {
+    height: 32vh;
+    width: 64vw;
+  }
+  .explore h2 {
+    font-size: 1.4rem;
+  }
+
+  .spec h3 {
+    font-size: 2rem;
+  }
+  .spec p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+
+  .container3 h2 {
+    font-size: 2rem;
+  }
+
+  .container3 p {
+    font-size: 1rem;
+    line-height: 30px;
+  }
+  .searchItem input {
+    width: 70vw;
+  }
+
+  .section1 {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .section2 {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .cloth1 {
+    width: 30vh;
+    height: 35vh;
+  }
+  .cloth2 {
+    width: 30vh;
+    height: 35vh;
+  }
+  .cloth3 {
+    width: 30vh;
+    height: 35vh;
+  }
+  .cloth4 {
+    width: 30vh;
+    height: 35vh;
+  }
+  .cloth5 {
+    width: 30vh;
+    height: 35vh;
+  }
+  .cloth6 {
+    width: 30vh;
+    height: 35vh;
+  }
+
+  .explore {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .explore h2 {
+    width: 100vw;
+    padding-left: 13px;
+  }
+}
+
+@media (min-width: 500px) {
+  .mobile {
+    display: none;
+  }
+}
